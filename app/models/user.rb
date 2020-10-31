@@ -35,7 +35,7 @@ class User < ApplicationRecord
     to_send_back
   end
 
-  def self.first_name_matches(params)
+  def self.first_name_matches(param)
     matches('first_name', param)
   end
 
